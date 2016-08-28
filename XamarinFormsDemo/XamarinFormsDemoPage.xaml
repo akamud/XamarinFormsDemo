@@ -5,7 +5,8 @@
 			Margin="10">
 		<Label Text="Username" />
 		<Entry HorizontalOptions="FillAndExpand"
-			Keyboard="Email"/>
+			Keyboard="Email"
+			Text="{Binding Email}"/>
 
 		<Label Text="Senha" />
 		<Entry HorizontalOptions="FillAndExpand"

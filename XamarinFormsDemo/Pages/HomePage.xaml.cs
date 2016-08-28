@@ -10,6 +10,8 @@ namespace XamarinFormsDemo
 		public HomePage ()
 		{
 			InitializeComponent ();
+
+			BindingContext = new HomeViewModel ();
 		}
 	}
 }
