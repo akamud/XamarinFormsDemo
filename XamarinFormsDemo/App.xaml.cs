@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
+[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace XamarinFormsDemo
 {
 	public partial class App : Application
@@ -8,7 +10,7 @@ namespace XamarinFormsDemo
 		{
 			InitializeComponent ();
 
-			MainPage = new XamarinFormsDemoPage ();
+			MainPage = new NavigationPage(new XamarinFormsDemoPage ());
 		}
 
 		protected override void OnStart ()

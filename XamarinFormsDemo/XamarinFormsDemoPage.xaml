@@ -1,4 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinFormsDemo" x:Class="XamarinFormsDemo.XamarinFormsDemoPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	<StackLayout HorizontalOptions="FillAndExpand"
+			VerticalOptions="CenterAndExpand"
+			Margin="10">
+		<Label Text="Username" />
+		<Entry HorizontalOptions="FillAndExpand"
+			Keyboard="Email"/>
+
+		<Label Text="Senha" />
+		<Entry HorizontalOptions="FillAndExpand"
+			IsPassword="true"/>
+
+		<Button
+			Text="Login"
+			Command="{Binding LoginCommand}"/>
+	</StackLayout>
 </ContentPage>

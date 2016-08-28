@@ -7,6 +7,8 @@ namespace XamarinFormsDemo
 		public XamarinFormsDemoPage ()
 		{
 			InitializeComponent ();
+
+			BindingContext = new LoginViewModel (Navigation);
 		}
 	}
 }
