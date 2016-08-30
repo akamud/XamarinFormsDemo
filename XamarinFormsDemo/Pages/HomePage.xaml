@@ -3,7 +3,7 @@
 		xmlns:custom="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=XamarinFormsDemo">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="CenterAndExpand" Margin="10">
-			<custom:CircleImage Source="monkey_avatar.jpg" HorizontalOptions="Center"
+			<Image Source="monkey_avatar.jpg" HorizontalOptions="Center"
 				Aspect="AspectFill"
 				HeightRequest="150"
 				WidthRequest="150"/>
