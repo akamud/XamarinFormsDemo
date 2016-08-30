@@ -6,23 +6,23 @@ namespace XamarinFormsDemo
 {
 	public class HomeViewModel : INotifyPropertyChanged
 	{
-		private string _email;
+		//private string _email;
 
-		public string Email {
-			get {
-				return _email;
-			}
-			set {
-				if (_email != value) {
-					_email = value;
-					OnPropertyChanged (nameof(Email));
-				}
-			}
-		}
+		//public string Email {
+		//	get {
+		//		return _email;
+		//	}
+		//	set {
+		//		if (_email != value) {
+		//			_email = value;
+		//			OnPropertyChanged (nameof(Email));
+		//		}
+		//	}
+		//}
 
 		public HomeViewModel ()
 		{
-			Email = CrossSettings.Current.GetValueOrDefault<string>("Email");
+			//Email = CrossSettings.Current.GetValueOrDefault<string>("Email");
 		}
 
 		public event PropertyChangedEventHandler PropertyChanged;

@@ -7,7 +7,7 @@
 				Aspect="AspectFill"
 				HeightRequest="150"
 				WidthRequest="150"/>
-			<Label Text="{Binding Email}" HorizontalOptions="CenterAndExpand"/>
+			<Label Text="Nome" HorizontalOptions="CenterAndExpand"/>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

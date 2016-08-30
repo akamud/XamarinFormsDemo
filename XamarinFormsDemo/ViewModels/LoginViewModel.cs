@@ -22,7 +22,7 @@ namespace XamarinFormsDemo
 
 		private async Task ExecuteLoginAsync ()
 		{
-			CrossSettings.Current.AddOrUpdateValue ("Email", Email);
+			//CrossSettings.Current.AddOrUpdateValue ("Email", Email);
 
 			await navigation.PushAsync (new HomePage ());
 		}
