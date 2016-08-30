@@ -10,8 +10,8 @@ namespace XamarinFormsDemo
 
 			BindingContext = new LoginViewModel (Navigation);
 
-			UsernameLabel.Effects.Add (Effect.Resolve ("XamFormsDemo.RequiredEffect"));
-			EmailText.Effects.Add (Effect.Resolve ("XamFormsDemo.RequiredEffect"));
+			//UsernameLabel.Effects.Add (Effect.Resolve ("XamFormsDemo.RequiredEffect"));
+			//EmailText.Effects.Add (Effect.Resolve ("XamFormsDemo.RequiredEffect"));
 		}
 	}
 }
