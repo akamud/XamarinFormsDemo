@@ -8,7 +8,7 @@ namespace XamarinFormsDemo
 		{
 			InitializeComponent ();
 
-			BindingContext = new LoginViewModel (Navigation);
+			//BindingContext = new LoginViewModel (Navigation);
 		}
 	}
 }

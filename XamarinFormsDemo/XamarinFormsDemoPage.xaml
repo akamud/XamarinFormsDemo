@@ -3,16 +3,6 @@
 	<StackLayout HorizontalOptions="FillAndExpand"
 			VerticalOptions="CenterAndExpand"
 			Margin="10">
-		<Label Text="Username" />
-		<Entry HorizontalOptions="FillAndExpand"
-			Keyboard="Email"/>
-
-		<Label Text="Senha" />
-		<Entry HorizontalOptions="FillAndExpand"
-			IsPassword="true"/>
-
-		<Button
-			Text="Login"
-			Command="{Binding LoginCommand}"/>
+		
 	</StackLayout>
 </ContentPage>
